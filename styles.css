@@ -1,24 +1,3 @@
-.word-web {
-    color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-}
-
-.word-studio {
-    color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-}
 a {
     text-decoration: none;
 }
@@ -28,33 +7,23 @@ body {
 }
 
 .navigation-color {
-    color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+    color: var#2E2F42;
+
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
 
-.adress-color {
-    color: var(--SLATE, #434455);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+li a {
+    color: #2E2F42;
 }
-
-.h1 {
-    color: var(--WHITE, #000);
-        text-align: center;
-        font-family: Roboto;
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 60px;
-        letter-spacing: 1.12px;
+li a:hover {
+    color:#404BBF;
 }
-
+li a:active {
+    color: #404BBF;
+}
