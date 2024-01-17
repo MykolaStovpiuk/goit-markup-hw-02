@@ -1,32 +1,23 @@
-a {
-    text-decoration: none;
-}
-
 body {
 font-family: 'Roboto', 'Raleway', sans-serif;
 color: #434455;
 background-color: #fff;
 }
 
-.navigation-color {
-    color:#2E2F42;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
+.navigation-list-item {
+color:#2E2F42;
+font-family: Roboto;
+ font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.32px;
+list-style-type: none;
 }
 
-li a {
-    color: #2E2F42;
-    font-size: 16px;
-}
-li a:hover {
-    color:#404BBF;
-}
-li a:active {
-    color: #404BBF;
+.adress-list-item {
+font-style: normal;
+list-style-type: none;
 }
 
 .web-word {
@@ -150,4 +141,20 @@ font-size: 16px;
 font-style: normal;
 line-height: 1.5; 
 letter-spacing: 0.32px;
+}
+
+a {
+ color: #2E2F42;
+text-decoration: none;
+}
+
+a:hover,
+a:active {
+color:#404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5px;
+    letter-spacing: 0.32px;
 }
