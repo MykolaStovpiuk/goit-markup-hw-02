@@ -3,22 +3,27 @@ font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #fff;
 }
+.navigation-logo:focus {
+    color: #404bbf; 
+}
 
 .navigation-list-item {
-color:#2E2F42;
+color:#434455 ;;
 font-family: Roboto;
- font-size: 16px;
+font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-list-style-type: none;
+}
+.navigation-list-item:focus {
+color: #404bbf;
 }
 
-.adress-list-item {
+.adress-change-list {
 font-style: normal;
-list-style-type: none;
 }
+
 
 .navigation-web-word {
 color: #4D5AE5;
@@ -33,27 +38,29 @@ text-transform: uppercase;
 
 .navigation-word-studio {
 color: #2E2F42;
-
 }
 
-button {
-background: #4D5AE5;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-cursor: pointer;
+.main-section-button {
+font-family: "Roboto", sans-serif;
+background-color: #4D5AE5;
+color: #ffffff;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 
-button a:hover {
-border-radius: 4px;
-background: #404BBF;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+.main-section-button:hover,
+.main-section-button:focus {
+background-color: #404BBF
 }
 
 .effective-solution {
 background: #2E2F42;
-
 }
 
-.h1-color {
+.section-heading-style {
 color:  #FFF;
 text-align: center;
 font-family: Roboto;
@@ -61,6 +68,21 @@ font-size: 56px;
 font-style: normal;
 line-height: 1.07; 
 letter-spacing: 1.12px;
+}
+
+.second-section-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.about-us-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455; 
 }
 
 h3 {
@@ -95,6 +117,30 @@ letter-spacing: 0.32px;
     background-color: #F4F4FD;
 }
 
+.our-team-name {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+}
+
+.our-team-members {
+background-color: #FFFFFF
+}
+
+.our-team-description {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.our-team-people {
+    color:#2e2f42 ;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 .our-portfolio {
     background-color: #FFF;
 }
@@ -121,14 +167,12 @@ header {
     background-color: #FFF;
 }
 .our-portfolio-title {
-color:  #2E2F42;
-text-align: center;
 font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.11; 
-letter-spacing: 0.72px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
 text-transform: capitalize;
+color: #2e2f42; 
 }
 
 .footer-custom {
@@ -155,35 +199,19 @@ letter-spacing: 0.32px;
 }
 
 a {
-    color: #2E2F42;
-   text-decoration: none;
+text-decoration: none;
+color: #2E2F42;
    }
 
 a:hover,
-a:active {
-color:#404BBF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5px;
-    letter-spacing: 0.32px;
+a:active,
+a:focus {
+color: #404BBF;
 }
-
 ul {
     list-style-type: none;
 }
+li {
+    list-style-type: none;
+}
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
