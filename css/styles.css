@@ -48,12 +48,21 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+cursor: pointer;
 }
 
 
 .main-section-button:hover,
 .main-section-button:focus {
 background-color: #404BBF
+}
+
+.about-us-section {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
 .effective-solution {
